@@ -1,5 +1,8 @@
 from django.contrib import admin
-from .models import DysonModel
+from .models import *
 
 
 admin.site.register(DysonModel)
+admin.site.register(OrderModel)
+admin.site.register(OrderDysonModel)
+
